@@ -20,7 +20,7 @@ const SignUp = () => {
       setTempOtp(text);
       console.log(text);
       console.log("Sent successfully");
-      await axios.post("http://localhost:5000/sendmail", {
+      await axios.post("https://picitypeoples.herokuapp.com/sendmail", {
         text, mail: email.current.value
       });
     } catch (err) {
