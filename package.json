@@ -36,7 +36,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -58,18 +58,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://picitypeoples.herokuapp.com/api/",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PicityPeoples/pict.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PicityPeoples/pict/issues"
-  },
-  "homepage": "https://github.com/PicityPeoples/pict#readme"
+  "proxy": "https://picitypeoples.herokuapp.com/api/"
 }
