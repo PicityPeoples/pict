@@ -16,7 +16,7 @@ const SignIn = () => {
   const [loading, setLoading] = useState(false);
 
   try {
-    axios.create({ baseURL: "https://picitypeoples.herokuapp.com/" });
+    axios.create({ baseURL: "https://picitypeoples.herokuapp.com" });
   } catch (err) {
     window.alert(err);
   }
