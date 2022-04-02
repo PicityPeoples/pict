@@ -4,7 +4,7 @@
   "private": true,
   "proxy": "https://picitypeoples.herokuapp.com/api/",
   "engines": {
-    "node": "17.0.1"
+    "node": "14.x"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
