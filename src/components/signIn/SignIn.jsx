@@ -24,7 +24,7 @@ const SignIn = () => {
     //     password: password.current.value,
     //   },
     try {
-      const res = await axios.post("/auth/login", {
+      const res = await axios.post("https://picitypeoples.herokuapp.com/api/auth/login", {
         email: email.current.value,
         password: password.current.value,
       });
