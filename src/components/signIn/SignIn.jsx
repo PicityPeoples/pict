@@ -15,11 +15,11 @@ const SignIn = () => {
   const { dispatch } = useContext(AuthContext);
   const [loading, setLoading] = useState(false);
 
-  try {
-    axios.create({ baseURL: "https://picitypeoples.herokuapp.com" });
-  } catch (err) {
-    window.alert(err);
-  }
+  // try {
+  //   axios.create({ baseURL: "https://picitypeoples.herokuapp.com" });
+  // } catch (err) {
+  //   window.alert(err);
+  // }
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
