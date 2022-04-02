@@ -2,6 +2,7 @@
   "name": "picity",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://picitypeoples.herokuapp.com/api/",
   "engines": {
     "node": "17.0.1"
   },
@@ -57,6 +58,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "https://picitypeoples.herokuapp.com/api/"
+  }
 }
