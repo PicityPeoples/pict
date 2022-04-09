@@ -1,7 +1,7 @@
 {
   "name": "picity",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "proxy": "https://picitypeoples.herokuapp.com/api/",
   "engines": {
     "node": "17.0.1"
